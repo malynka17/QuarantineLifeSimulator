@@ -1,9 +1,35 @@
+#timedataBar{
+    display: flex;
+
+}
+ 
+#data{
+    margin-right: 10px;
+}
+
+#dayOfLockdown{
+    margin-left: 10px;
+}
+
+#date::before{
+    content: "Date: ";
+}
+
+#dayOfLockdown::before{
+    content: "Day ";
+    
+}
+
 #news{
     visibility: hidden;
 }
+
+.inlineBox{
+    display: flex;
+}
 #resourses{
     border: 5px;
-    width: fit-content;
+    width: 15em;
     border-style: double;
     border-color: black;
 }
@@ -16,4 +42,10 @@
 
 #skills::before{
     content: "Skills: ";
+}
+
+#bar{
+    display: inline;
+    width: 100%;
+    height: 40%;
 }
