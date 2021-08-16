@@ -1,0 +1,19 @@
+#news{
+    visibility: hidden;
+}
+#resourses{
+    border: 5px;
+    width: fit-content;
+    border-style: double;
+    border-color: black;
+}
+#money::before{
+    content: "Money: $";
+}
+#learnPoints::before{
+    content: "Learning points:";
+}
+
+#skills::before{
+    content: "Skills: ";
+}
