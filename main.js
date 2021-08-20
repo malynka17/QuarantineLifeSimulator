@@ -61,6 +61,9 @@ if(skills.includes(firstSkillOptions[1])){
 
 changeActivity("block","none","none","none","none","none");
 
+
+// buttons click events 
+
 buyLp_button.onclick = function () {
     changeActivity("none","block","none","none","none","none"); 
     room_button.style.visibility ="visible"; 
@@ -70,3 +73,24 @@ room_button.onclick = function() {
     changeActivity("block","none","none","none","none","none"); 
     room_button.style.visibility ="hidden"; 
 }
+
+learnNewSkill_button.onclick = function () {
+    changeActivity("none","none","block","none","none","none"); 
+    room_button.style.visibility ="visible"; 
+};
+
+startStream_button.onclick = function () {
+    changeActivity("none","none","none","block","none","none"); 
+    room_button.style.visibility ="visible"; 
+};
+
+freelance_button.onclick = function () {
+    changeActivity("none","none","none","none","block","none"); 
+    room_button.style.visibility ="visible"; 
+};
+
+sendResume_button.onclick = function () {
+    changeActivity("none","none","none","none","none","block"); 
+    room_button.style.visibility ="visible"; 
+};
+
