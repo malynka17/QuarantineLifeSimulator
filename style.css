@@ -49,3 +49,9 @@
     width: 100%;
     height: 40%;
 }
+
+.activity{
+    height: 100%;
+  
+    position: absolute;
+} 
